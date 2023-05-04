@@ -13,7 +13,7 @@
          :zen/desc "Este perfil determina la ubicación especifica para un evento, objeto o Infraestructura específica. Este perfil permite vinlcular la localización especifica con una organización o espacio físico específico",
          :zen.fhir/type "Location",
          :zen.fhir/profileUri "https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/CoreLocalizacionCl",
-         :zen.fhir/version "0.6.23-1",
+         :zen.fhir/version "0.6.24",
          :confirms #{hl7-fhir-r4-core.Location/schema
                      zen.fhir/Resource},
          :type zen/map,

@@ -1,11 +1,8 @@
 {ns hl7-fhir-cl-corecl.BundleCl,
  import #{zen.fhir
           hl7-fhir-r4-core.Bundle
-          hl7-fhir-r4-core.value-set.bundle-type
-          hl7-fhir-cl-corecl.BundleCl},
- link-schema {:zen/tags #{zen/schema zen.fhir/structure-schema},
-              :zen.fhir/version "0.6.23-1"},
- schema {:zen.fhir/version "0.6.23-1",
+          hl7-fhir-r4-core.value-set.bundle-type},
+ schema {:zen.fhir/version "0.6.24",
          :confirms #{zen.fhir/Resource hl7-fhir-r4-core.Bundle/schema},
          :zen/tags #{zen.fhir/profile-schema zen/schema},
          :zen.fhir/profileUri "https://hl7chile.cl/fhir/ig/CoreCL/StructureDefinition/BundleCl",
@@ -26,6 +23,5 @@
                                                  :zen/desc "URL absoluta del recurso a vincular"}},
                                 :fhir/flags #{:MS},
                                 :zen/desc "Se agregan los recursos que se desean adjuntar dentro del bundle en el elemento fullUrl"},
-                        :minItems 1},
-                :link {:confirms #{hl7-fhir-cl-corecl.BundleCl/link-schema}}},
+                        :minItems 1}},
          :zen.fhir/type "Bundle"}}
