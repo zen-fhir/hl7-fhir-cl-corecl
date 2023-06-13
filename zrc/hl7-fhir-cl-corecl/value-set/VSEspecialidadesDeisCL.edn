@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Códigos de especialidades médicas descritas según DEIS",
-            :zen.fhir/version "0.6.28",
+            :zen.fhir/version "0.6.29",
             :fhir/code-systems #{{:fhir/url "https://hl7chile.cl/fhir/ig/CoreCL/CodeSystem/CSEspecialidadesDeisCL",
                                   :zen.fhir/content :bundled}},
             :uri "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/VSEspecialidadesDeisCL",
