@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Tipos de Documentos para identificación según tabla HL7 V3 y CodeSystem local.",
-            :zen.fhir/version "0.6.30-11",
+            :zen.fhir/version "0.6.30-12",
             :fhir/code-systems #{{:fhir/url "https://hl7chile.cl/fhir/ig/CoreCL/CodeSystem/CSCodigoDNI",
                                   :zen.fhir/content :bundled}
                                  {:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0203",

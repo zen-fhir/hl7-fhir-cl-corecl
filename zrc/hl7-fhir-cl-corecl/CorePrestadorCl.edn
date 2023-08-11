@@ -6,7 +6,7 @@
           hl7-fhir-r4-core.humanname-mothers-family
           hl7-fhir-cl-corecl.value-set.VSCodigosComunaCL
           hl7-fhir-cl-corecl.value-set.CodPais},
- schema {:zen.fhir/version "0.6.30-11",
+ schema {:zen.fhir/version "0.6.30-12",
          :confirms #{hl7-fhir-r4-core.Practitioner/schema
                      zen.fhir/Resource},
          :zen/tags #{zen.fhir/profile-schema zen/schema},
